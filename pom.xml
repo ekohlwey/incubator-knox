@@ -52,6 +52,7 @@
         <module>gateway-provider-security-authz-acls</module>
         <module>gateway-provider-identity-assertion-pseudo</module>
         <module>gateway-provider-jersey</module>
+        <module>gateway-provider-mina-sshd</module>
         <module>gateway-service-as</module>
         <module>gateway-service-hbase</module>
         <module>gateway-service-hive</module>
@@ -521,6 +522,11 @@
                 <groupId>org.eclipse.jetty.orbit</groupId>
                 <artifactId>javax.servlet</artifactId>
                 <version>3.0.0.v201112011016</version>
+            </dependency>
+            <dependency>
+            	<groupId>org.apache.sshd</groupId>
+            	<artifactId>sshd-core</artifactId>
+            	<version>0.10.1</version>
             </dependency>
             <!--
             <dependency>
